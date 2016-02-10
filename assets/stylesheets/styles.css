@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.container {margin-top:45px}
+
+p,h3,h1 {text-align:left}
+
+section {padding:0px; margin:0px; text-align:left}
+
+nav {background: #bf0012; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #bf0012 0%, #8f0222 83%, #6d0019 100%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bf0012), color-stop(83%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top,  #bf0012 0%,#8f0222 83%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top,  #bf0012 0%,#8f0222 83%,#6d0019 100%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top,  #bf0012 0%,#8f0222 83%,#6d0019 100%); /* IE10+ */
+
+background: linear-gradient(to bottom,  #bf0012 0%,#8f0222 83%,#6d0019 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf0012', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+
+
+
+border-radius:0px; 
+
+min-height:45px;
+
+
+
+}
+
+nav ul a {display:block;  color:white; font-family: 'Open Sans', sans-serif;; font-size:18px; text-align:left; float:right; padding-top:10px; height:35px; font-weight:200; margin-left:5% }
+
+nav ul {list-style:none; margin:0px; padding:0px;
+    list-style-type: none; width:100%; overflow:auto; }
+	
+
+
+header {text-align:left; }
+
+
+
+body {background-color:white}
+
+.container {background-color:white; }
+
+.slider {margin-bottom:15px}
+
+.footer {border-top:#A30002 thick solid; height:50px; background-color:white; padding-top:15px}
+
+img {max-width:100%}
+
+p {font-weight:200}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  
+  .thumb {margin-bottom:15px}
+  
+  
+
+.project {border-bottom:thin black solid; margin-top: 20px; padding-bottom:20px}
+
+p,h1,h2,h3,h4,h5,a {font-family: 'Open Sans', sans-serif;}
+
+h1,h2,h3,h4,h5 {color:#474747}
+
+@media screen and (max-width: 400px) {
+	
+	nav ul a { text-align:center; float:none; padding-top:10px; height:35px; font-weight:200;  width:200px; }
+	
+	.slider {display:none}
+	
+	nav {margin-bottom:15px}
+	
+	.logo {display:block;  margin:auto}
+	
+	}
+
+@media screen and (max-width: 767px) {
+	
+		nav ul a { width:20%; margin-left:0px; font-size:14px}
+		
+		
+
+	}
+
+@media screen and (min-width: 768px) {
+	
+	
+	
+	}
+
+
